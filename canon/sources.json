@@ -1,0 +1,104 @@
+[
+  {
+    "file": "Tradecraft-Primer-2009.pdf",
+    "role": "PRIMARY - analytic techniques",
+    "title": "A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis",
+    "issuer": "US Government (CIA Center for the Study of Intelligence)",
+    "edition": "March 2009",
+    "source_url": "https://www.cia.gov/resources/csi/static/Tradecraft-Primer-apr09.pdf",
+    "retrieved": "2026-09-21",
+    "retrieved_via": "curl, direct from cia.gov"
+  },
+  {
+    "file": "ICD-203.pdf",
+    "role": "OUTPUT STANDARD",
+    "title": "Intelligence Community Directive 203: Analytic Standards",
+    "issuer": "Office of the Director of National Intelligence",
+    "edition": "ICD 203 signed 2 Jan 2015, with technical amendment (PDF built 2024-11-20)",
+    "source_url": "https://archive.dni.gov/files/documents/ICD/ICD-203.pdf",
+    "source_note": "dni.gov and odni.gov URLs 301-redirect here",
+    "retrieved": "2026-09-21",
+    "retrieved_via": "Claude Code WebFetch raw binary save (curl got 403). Valid 8-page PDF; not yet cross-checked against a second, independently downloaded copy"
+  },
+  {
+    "file": "ATP-2-22.9-2012.pdf",
+    "role": "COLLECTION DOCTRINE",
+    "title": "ATP 2-22.9 (FMI 2-22.9): Open-Source Intelligence",
+    "issuer": "Headquarters, Department of the Army",
+    "edition": "10 July 2012. DISTRIBUTION RESTRICTION: Unlimited Distribution",
+    "source_url": "https://www.bits.de/NRANEU/others/amd-us-archive/atp2-22-9(12).pdf",
+    "source_note": "Third-party mirrors, not the issuing agency. Byte-identical copy also at https://cyberwar.nl/d/atp2-22-9.pdf (same SHA-256, downloaded independently 2026-09-21). PDF metadata: 'via Federation of American Scientists'. Chosen because the successor, ATP 2-22.9-1 (19 Oct 2023), is behind Army CAC login (armypubs redirects to federation.eams.army.mil SSO), and ATP 2-22.9 is INACTIVE per armypubs record PUB_ID=1007535. A June 2017 edition exists only as a redacted FOIA release (https://irp.fas.org/doddir/army/atp2-22-9-2017.pdf) marked 'Distribution authorized to U.S. Government agencies only', so it is not included.",
+    "retrieved": "2026-09-21",
+    "retrieved_via": "curl"
+  },
+  {
+    "file": "ICD-208.pdf",
+    "role": "OUTPUT STANDARD - tailoring for the customer",
+    "title": "Intelligence Community Directive 208: Maximizing the Utility of Analytic Products",
+    "issuer": "Office of the Director of National Intelligence",
+    "edition": "Probably signed 9 Jan 2017 (date in ODNI's filename; the signature date is not legible in the OCR text). Supersedes ICD 208 'Write for Maximum Utility', 17 Dec 2008.",
+    "source_url": "https://archive.dni.gov/files/documents/ICD/ICD-208-Maximizing-the-Utility-of-Analytic-Products-2017-01-09.pdf",
+    "source_note": "Official URL at www.dni.gov (dni.gov/odni.gov redirect to archive.dni.gov). Scanned: text layer is Adobe Paper Capture OCR embedded by the publisher.",
+    "retrieved": "2026-09-21",
+    "retrieved_via": "Claude Code WebFetch raw binary save. Not cross-checked against a second copy"
+  },
+  {
+    "file": "ICD-209.pdf",
+    "role": "OUTPUT STANDARD - sanitized / releasable versions",
+    "title": "Intelligence Community Directive 209: Tearline Production and Dissemination",
+    "issuer": "Office of the Director of National Intelligence",
+    "edition": "Probably signed 6 Sep 2012 (a date that appears in the OCR text; the signature block itself is not legible). PDF built 2023-10-25.",
+    "source_url": "https://archive.dni.gov/files/documents/ICD/ICD-209-Tearline-Production-and-Dissemination.pdf",
+    "source_note": "Official URL at www.dni.gov redirects to archive.dni.gov. Scanned: text layer is Adobe Paper Capture OCR embedded by the publisher.",
+    "retrieved": "2026-09-21",
+    "retrieved_via": "Claude Code WebFetch raw binary save. Not cross-checked against a second copy"
+  },
+  {
+    "file": "ADP-6-0-2026.pdf",
+    "role": "STAFF - command and control / mission command",
+    "title": "ADP 6-0: Command and Control",
+    "issuer": "Headquarters, Department of the Army",
+    "edition": "7 July 2026. Supersedes ADP 6-0 'Mission Command', 31 July 2019. DISTRIBUTION RESTRICTION: Approved for public release; distribution is unlimited.",
+    "source_url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN47032-ADP_6-0-000-WEB-1.pdf",
+    "record_url": "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1033415",
+    "source_note": "Official Army Publishing Directorate public folder (DR_a). Born-digital PDF, not a scan.",
+    "retrieved": "2026-09-21",
+    "retrieved_via": "curl, direct from armypubs.army.mil"
+  },
+  {
+    "file": "ADP-5-0-2019.pdf",
+    "role": "STAFF - the operations process",
+    "title": "ADP 5-0: The Operations Process",
+    "issuer": "Headquarters, Department of the Army",
+    "edition": "31 July 2019. Supersedes ADP 5-0 and ADRP 5-0, 17 May 2012. DISTRIBUTION RESTRICTION: Approved for public release; distribution is unlimited.",
+    "source_url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN18126-ADP_5-0-000-WEB-3.pdf",
+    "record_url": "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1007409",
+    "source_note": "Official Army Publishing Directorate public folder (DR_a). Born-digital PDF, not a scan.",
+    "retrieved": "2026-09-21",
+    "retrieved_via": "curl, direct from armypubs.army.mil"
+  },
+  {
+    "file": "FM-6-0-2022.pdf",
+    "role": "STAFF - staff roles and organization",
+    "title": "FM 6-0: Commander and Staff Organization and Operations",
+    "issuer": "Headquarters, Department of the Army",
+    "edition": "16 May 2022. Supersedes FM 6-0, 5 May 2014. DISTRIBUTION RESTRICTION: Approved for public release; distribution is unlimited.",
+    "source_url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN35404-FM_6-0-000-WEB-1.pdf",
+    "record_url": "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1024909",
+    "source_note": "Official Army Publishing Directorate public folder (DR_a). Born-digital PDF, not a scan.",
+    "retrieved": "2026-09-21",
+    "retrieved_via": "curl, direct from armypubs.army.mil"
+  },
+  {
+    "file": "FM-5-0-2024-C1.pdf",
+    "role": "STAFF - planning (MDMP), running estimates, assessment, orders",
+    "title": "FM 5-0: Planning and Orders Production",
+    "issuer": "Headquarters, Department of the Army",
+    "edition": "4 November 2024, incorporating Change 1 (8 Aug 2025; replaces the term 'gender' with 'sex', per EO 14168). Supersedes FM 5-0, 16 May 2022. DISTRIBUTION RESTRICTION: Approved for public release; distribution is unlimited.",
+    "source_url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN44590-FM_5-0-001-WEB-3.pdf",
+    "record_url": "https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUB_ID=1030075",
+    "source_note": "Official Army Publishing Directorate public folder (DR_a). Born-digital PDF, not a scan.",
+    "retrieved": "2026-09-21",
+    "retrieved_via": "curl, direct from armypubs.army.mil"
+  }
+]

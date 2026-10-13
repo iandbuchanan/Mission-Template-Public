@@ -1,0 +1,7 @@
+*.pdf binary
+*.md text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.ps1 text eol=crlf
+# canon must stay byte-exact so manifest.json hashes hold
+canon/** -text
