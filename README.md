@@ -39,4 +39,4 @@ All canon documents are US Government publications, not subject to copyright in 
 `canon/convert.py` uses PyMuPDF and pymupdf4llm, which are licensed under the GNU AGPL 3.0 (or a commercial license from Artifex). They aren't included here; install them yourself if you want to rerun the conversion.
 
 ## License
-MIT for everything written for this project. The canon documents aren't covered; see [LICENSE](LICENSE).
+MIT for everything written for this project; see [LICENSE](LICENSE). The canon documents aren't covered; see [NOTICE.md](NOTICE.md).
