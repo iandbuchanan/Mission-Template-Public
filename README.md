@@ -1,13 +1,27 @@
 # Mission-Template
 
-I designed a reusable mission system that turns the U.S. government's own intelligence and planning doctrine (CIA analytic tradecraft, ODNI analytic standards, and Army staff manuals) into a team of AI analysts and staff officers who work from the original documents, not summaries, and advise a human commander who makes every decision.
+Your own AI research and planning team for any big goal: a job hunt, a move, a launch, a dispute. It finds and checks the facts, pokes holes in your thinking, weighs your options and drafts the plan. You make every decision; it never acts for you.
 
-It's a mission-agnostic **intelligence cell and staff** for Claude Code. Duplicate this repository once per mission, fill in `MISSION.md`, and run it.
+## What it does
+You write down what you're trying to achieve, by when, and what you won't risk. Then a team of AI helpers in Claude Code goes to work:
 
-- **Intelligence cell** (`/intel-cell`, 11 `intel-*` agents): finds, vets and analyzes information. Built on the CIA *Tradecraft Primer* (2009), Army ATP 2-22.9 (OSINT), and ODNI ICDs 203, 208 and 209.
-- **Staff** (`/staff`, 7 `staff-*` agents): turns intelligence into plans, orders, execution and assessment. Built on Army ADP 6-0, ADP 5-0, FM 6-0 and FM 5-0.
+- **Research.** They find information, check how reliable it is, and tell you plainly what's known, what's assumed and what's still a guess.
+- **Pushback.** Some helpers exist only to argue the other side, test your assumptions, and ask "what if we're wrong?"
+- **Options and a plan.** They lay out a few ways to get there, compare them on time, money and risk, and turn the one you choose into a step-by-step plan.
+- **Drafts, not actions.** They write the emails, posts and messages, and you decide whether to send them. Nothing goes out without you.
+- **A paper trail.** Research, options and decisions are saved as files, so you can pick up next week where you left off and see why each call was made.
 
-You are the Commander. Claude is the Chief of Staff. The agents advise and draft; you decide and act.
+It's worth the setup when a decision is costly to get wrong and worth a few hours of careful thinking. For quick questions, just ask Claude.
+
+## Why it's built this way
+The helpers follow methods that professionals already rely on: the CIA's guide to structured analysis, the U.S. intelligence community's standards for honest, clearly labeled judgments, and the Army's process for planning and running operations. They work from the original documents, kept in `canon/`, not from summaries.
+
+That's where the vocabulary comes from. You are the **Commander**, Claude is your **Chief of Staff**, and there are two teams:
+
+- **Intelligence cell** (`/intel-cell`, 11 `intel-*` agents) finds, vets and analyzes information. It's built on the CIA *Tradecraft Primer* (2009), Army ATP 2-22.9 (open-source intelligence), and ODNI ICDs 203, 208 and 209.
+- **Staff** (`/staff`, 7 `staff-*` agents) turns that into plans, orders, execution and assessment. It's built on Army ADP 6-0, ADP 5-0, FM 6-0 and FM 5-0.
+
+Duplicate this repository once per goal, fill in `MISSION.md`, and run it.
 
 ## Start a new mission
 ```powershell
